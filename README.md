@@ -42,6 +42,7 @@ Once you have the notebook open in Jupyter, you can run the cells sequentially t
 ## Project Structure
 
 The repository has the following structure:
+
 MoiveAnalytics/
 │
 ├── movies_data_analysis.ipynb # Main analysis notebook
