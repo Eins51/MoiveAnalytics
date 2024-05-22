@@ -43,9 +43,9 @@ Once you have the notebook open in Jupyter, you can run the cells sequentially t
 
 The repository has the following structure:
 
-movies_data_analysis/
-│
-├── movies_data_analysis.ipynb  # Main analysis notebook
-├── requirements.txt            # Python dependencies
-└── README.md                   # Project documentation
+movies_data_analysis/  
+│  
+├── movies_data_analysis.ipynb  # Main analysis notebook  
+├── requirements.txt            # Python dependencies  
+└── README.md                   # Project documentation  
 
