@@ -33,7 +33,7 @@ To run the notebook, you need to have Python and Jupyter installed on your syste
     jupyter notebook
     ```
 
-5. Open the `movies_data_analysis.ipynb` notebook in the Jupyter interface.
+4. Open the `movies_data_analysis.ipynb` notebook in the Jupyter interface.
 
 ## Usage
 
