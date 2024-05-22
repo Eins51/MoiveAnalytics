@@ -43,7 +43,7 @@ Once you have the notebook open in Jupyter, you can run the cells sequentially t
 
 The repository has the following structure:
 
-movies_data_analysis/  
+MoiveAnalytics/  
 │  
 ├── movies_data_analysis.ipynb  # Main analysis notebook  
 ├── requirements.txt            # Python dependencies  
