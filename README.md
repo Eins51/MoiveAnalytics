@@ -21,6 +21,7 @@ This project includes one Tableau dashboard for interactive data exploration:
 - Analyzes and visualizes global content distribution, rating trends, genre breakdown, and audience preferences across platforms.
 - [Dashboard Demo](https://github.com/Eins51/MoiveAnalytics/blob/master/tableau/videos/dashboard.mp4)
 - ![Dashboard Preview](https://github.com/Eins51/MoiveAnalytics/blob/master/tableau/videos/dashboard.gif)
+- Link: https://public.tableau.com/app/profile/yi.wang4922/viz/Movies_Data_Analysis/Dashboard1
 
 ## Installation
 
