@@ -1,51 +1,92 @@
 # Movies Data Analysis
 
-This repository contains a Jupyter notebook for analyzing movie data. The analysis includes data visualization and insights extraction to help understand trends in the movie industry.
+## Overview
 
-## Table of Contents
+This repository focuses on analyzing movie data to uncover trends and insights in the movie streaming industry. Using Python and Tableau, it provides stakeholders with an interactive dashboard to understand content distribution, genre prevalence, and viewer preferences. The insights aim to assist platform curators, filmmakers, and market analysts in making informed decisions.
 
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
+## Features
 
-## Introduction
+- **Geographical Analysis**: Visualize movie production and ratings by country.
+- **Director Contributions**: Evaluate top directors and their influence on movie success.
+- **Trend Analysis**: Examine historical trends in movie ratings from 1910 to 2020.
+- **Platform Insights**: Understand content distribution across major streaming platforms (e.g., Netflix, Hulu, Disney+).
+- **Interactive Dashboard**: Explore data using filters, tooltips, and visual drill-downs.
 
-The `movies_data_analysis.ipynb` notebook provides a comprehensive analysis of movie data. The analysis covers various aspects such as genre trends, regional performance, director influence, and audience engagement. The goal is to derive actionable insights that can inform content acquisition strategies for streaming platforms.
+## Tableau Dashboards
+
+This project includes one Tableau dashboard for interactive data exploration:
+
+****
+
+- Analyzes and visualizes global content distribution, rating trends, genre breakdown, and audience preferences across platforms.
+- [Dashboard Demo](https://github.com/Eins51/MoiveAnalytics/blob/master/tableau/videos/dashboard.mp4)
+- ![Dashboard Preview](https://github.com/Eins51/MoiveAnalytics/blob/master/tableau/videos/dashboard.gif)
 
 ## Installation
 
-To run the notebook, you need to have Python and Jupyter installed on your system. Follow these steps to set up your environment:
-
 1. Clone the repository:
-    ```sh
-    git clone https://github.com/Eins51/MoiveAnalytics.git
-    cd movies_data_analysis
-    ```
 
-2. Install the required dependencies:
-    ```sh
-    pip install -r requirements.txt
-    ```
+   ```
+   git clone https://github.com/Eins51/MovieAnalytics.git
+   ```
 
-3. Start Jupyter Notebook:
-    ```sh
-    jupyter notebook
-    ```
+2. Navigate to the project directory:
 
-4. Open the `movies_data_analysis.ipynb` notebook in the Jupyter interface.
+   ```
+   cd MovieAnalytics
+   ```
+
+3. Install required Python packages:
+
+   ```
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 
-Once you have the notebook open in Jupyter, you can run the cells sequentially to perform the analysis. The notebook is structured to provide visualizations and insights at each step of the analysis process.
+1. Run the Jupyter Notebook for data analysis:
+
+   ```
+   jupyter notebook notebooks/movies_data_analysis.ipynb
+   ```
+
+2. Explore Tableau dashboards for interactive visualizations.
 
 ## Project Structure
 
-The repository has the following structure:
+```
+MovieAnalytics/
+├── data/                     # Dataset files
+├── notebooks/                # Jupyter Notebook for analysis
+│   └── movies_data_analysis.ipynb
+├── tableau/                  # Tableau dashboard files
+│   ├── dashboards/           # Tableau packaged workbooks (.twb)
+│   ├── videos/               # Dashboard demonstration videos
+│   └── screenshots/          # Dashboard preview images
+├── requirements.txt          # Python dependencies
+├── README.md                 # Project documentation
+```
 
-MoiveAnalytics/  
-│  
-├── movies_data_analysis.ipynb  # Main analysis notebook  
-├── requirements.txt            # Python dependencies  
-└── README.md                   # Project documentation  
+## Key Insights
 
+1. Top Performing Countries:
+   - United States and United Kingdom dominate movie production and ratings.
+2. Director Contributions:
+   - Directors like Steven Spielberg and Robert Stevenson consistently produce high-rating movies.
+3. Platform Preferences:
+   - Disney+ excels in family and animated content, while Netflix leads in Drama and Action genres.
+4. Rating Trends:
+   - A notable increase in average movie ratings post-2000s.
+
+## Recommendations
+
+- Focus content acquisition on high-performing regions like the US and UK.
+- Diversify genres to include niche categories like Documentaries and Indie Films.
+- Leverage historical data to optimize audience engagement strategies for specific seasons.
+
+## Acknowledgments
+
+Special thanks to:
+
+- Tableau for providing robust visualization capabilities.
+- Python libraries like Pandas and Matplotlib for enabling data analysis.
